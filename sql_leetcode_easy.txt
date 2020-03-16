@@ -420,3 +420,10 @@ select coalesce((select distinct Salary
                 order by Salary desc
                 limit 1 offset 1), null) 'SecondHighestSalary';
 
+
+#====
+1378. Replace Employee ID With The Unique Identifier
+select name, unique_id
+from employees e
+left join employeeuni em
+on e.id = em.id;
