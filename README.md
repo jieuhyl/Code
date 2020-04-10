@@ -1,1 +1,1 @@
-# Leetcode_SQL_easy
+# coding, programming, whatever!
