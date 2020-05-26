@@ -6,7 +6,7 @@ Created on Fri May 22 00:30:03 2020
 """
 
 
-# subtree
+# Find Subtree
 
 class Node(object):
     def __init__(self, val, left = None, right = None):
