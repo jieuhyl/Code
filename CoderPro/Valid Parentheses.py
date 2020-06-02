@@ -16,13 +16,13 @@ class solution(object):
         
         mapping = {'}':'{', ']':'[', ')':'('}
         
-        res = []
+        res = [None]
         for p in s:
             if p in mapping and mapping[p] == res[-1]:
                 res.pop()
             else:
                 res.append(p)
-        return res == []
+        return res == [None]
 
 s = '{[()]}()'
 s = '()[]{}'
