@@ -12,7 +12,7 @@ class solution:
         m = len(mtx)
         n = len(mtx[0])
         low = 0
-        high = m*n
+        high = m*n-1
         
         while low <= high:
             mid = (low + high)//2
