@@ -10,9 +10,6 @@ from collections import Counter
 class solution(object):
 
     def findana(s, p):
-        if len(s) < len(p):
-            return 0
-
         ans = []    
         dct_p = Counter(p)
         dct_s = Counter(s[:len(p)])
